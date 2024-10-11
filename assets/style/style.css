@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+/* --------------------- */
+/* --------------------- */
+
+.nav{
+    background: #322e41;
+}
+
+.nav__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+}
+
+.nav__list-link{
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    padding: 22px;
+    display: block;
+    transition: .5s;
+}
+
+.nav__list-link:hover{
+    background: white;
+    color: #d47300;
+}
+
+/* --------------------- */
+/* --------------------- */
+
+.poster{
+    min-height: 500px;
+    background: url('../images/poster.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster__title{
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+}
+
+.poster__subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+.poster__subtitle span{
+    font-weight: 700;
+}
+
+/* --------------------- */
+
+.products__content-card{
+    padding: 15px;
+    background: white;
+    max-width: max-content;
+    border-radius: 6px;
+}
+
+body{
+    background: #EBEBEB;
+}
+
+.products__content-card-title{
+    font-weight: 700;
+    font-size: 22px;
+    color: #2c2a2a;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.products__content-card-descr{
+    max-width: 510px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9b9b9b;
+}
+
+/* --------------------- */
+
+.products__content-collection-item{
+    padding: 15px;
+    border-radius: 6px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products__content-collection-item-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #D47300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products__content{
+    display: flex;
+    gap: 30px;
+}
+
+.products__content-collection-item-title{
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #2c2a2a;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.products__content-collection-item-descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: #9b9b9b;
+    max-width: 224px;
+}
+
+.products__content-collection{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.products{
+    display: flex;
+    margin-top: -30px;
+    margin-bottom: 15px;
+}
+
+/* --------------------- */
+/* --------------------- */
+
+.footer{
+    padding: 40px 0;
+    background: #322e41;
+}
+
+.footer__form{
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__form input{
+    border: none;
+    outline: none;
+    padding: 10px; 
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 112%;
+    color: #9b9b9b;
+    border-radius: 6px;
+}
+
+.footer__form textarea{
+    border: none;
+    outline: none;
+    padding: 10px; 
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 112%;
+    color: #9b9b9b;
+    border-radius: 6px;
+    height: 86px;
+    resize: vertical;
+}
+
+.footer__form button{
+    padding: 10px;
+    border-radius: 6px;
+    background: #544294;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 112%;
+    text-align: center;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.footer__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__items{
+    display: flex;
+    align-items: flex-start;
+    gap: 70px;
+}
+
+.footer__list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__list-link{
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    transition: .5s;
+}
+
+.footer__list-link:hover{
+    color: #D47300;
+}
+
+.icons__link{
+    display: flex;
+    gap: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
